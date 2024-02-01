@@ -1,0 +1,174 @@
+@keyframes ghoma {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(71, 67, 62, 0.981);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Main container box*/
+.mainBOX{    
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+/*left img and detail box*/
+.leftBOX{
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPicBox{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    overflow: hidden;
+}
+.mainPicBox img{
+    overflow: hidden;
+    width: 220px;
+    animation: ghoma 5s linear infinite;
+    margin-top: 30px;
+}
+
+.leftTEXT{
+    width: 400px;
+}
+
+h1{
+    font-weight: 700;
+    
+}
+.selider p{
+    color: #1DBF73;
+    height: 34px;
+    width: 45px;
+    font-weight: 900;
+}
+/*right login---------------------------------------------- section  box*/
+.rightBOX{
+    background-color:rgb(207, 195, 177);
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 30px;                  
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.smallLOGO{
+    margin-top: 5%;
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.smallLOGO img{
+    width: 45px;
+}
+
+/*input design*/
+.inputBOX{
+    width: 60%;
+    display: flex;
+    flex-direction: column;   /* <------------------input main box */
+    color: #090909d4;   
+}
+/*input  p  name password design*/
+.inputBOX p{
+    text-align: left;
+    font-weight: 500;  
+}
+.textBOX{
+    padding: 10px;
+    width: 100%;
+    border: none;                     /* <------------------ TEXt box */
+    text-align: left;
+    margin-right: 120px;
+}
+.eMAIL{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: right;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 3px solid rgba(71, 67, 62, 0.981);
+}
+/* Email text heading */
+.eMAIL i{
+    padding-right: 10px;
+    opacity: 30%; 
+    width: 10px;
+}
+.eMAIL i:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.btn{
+    width: 60%;
+}
+button{
+    width: 100%;
+    padding: 10px;                              
+    border: none;                 
+    border-radius: 5px;
+    cursor: pointer;
+    /* Darker Variation */
+background-color: rgba(71, 67, 62, 0.981);
+
+}
+.fPASS{
+    display: flex;                            /* forget password*/             
+    justify-content: flex-end;
+    padding: 10px;   
+}
+.fPASS a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: right;
+    cursor: pointer;
+
+}
+.Or{
+    padding: 10px;
+}
+.solICON{
+padding: 13px;
+}
+.solICON img{
+    width: 25px;
+    background-color: #090909;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signup a{
+    cursor: pointer;
+
+}
